@@ -1,0 +1,118 @@
+[{
+  "id": 0,
+  "message": "Hello",
+  "trigger": 1,
+}, {
+  "id": 1,
+  "message": "Thanks for choosing activeXbacks app",
+  "trigger": 2,
+}, {
+  "id": 2,
+  "message": "Your privacy is important to us, if you want to read more about this you canm or at any time you can find the policy in the settings menu",
+  "options": [{
+      "value": 1,
+      "label": "Read Now",
+      "trigger": 3
+    },
+    {
+      "value": 2,
+      "label": "Got it 😊",
+      "trigger": 4
+    },
+  ]
+}, {
+  "id": 3,
+  "function": "navigateToPrivacy",
+  "trigger": 4,
+}, {
+  "id": 4,
+  "message": "Can we use your email address linked to your apple account?",
+  "trigger": 5,
+}, {
+  "id": 5,
+  "message": "We need an email to allow our database to develop a personal plan and talk to the app",
+  "options": [{
+      "value": 1,
+      "label": "Different Email",
+      "trigger": 6
+    },
+    {
+      "value": 2,
+      "label": "Sure thing! 😀",
+      "trigger": 7
+    },
+  ],
+}, {
+  "id": 6,
+  "message": "Okay, what email?",
+  "trigger": 7,
+}, {
+  "id": 7,
+  "options": [{
+    "value": 1,
+    "label": "dls",
+    "trigger": 8
+  }],
+  "function": "altEmailInput",
+}, {
+  "id": 8,
+  "message": "We'll send you a verification email - just click on the link when you get it.",
+  "trigger": 9,
+}, {
+  "id": 9,
+  "message": "If you haven't recieved this in the next few minutes, we can resend the email",
+  "trigger": 10,
+}, {
+  "id": 10,
+  "message": "We've verified our account - yay! 🎉",
+  "trigger": 11,
+}, {
+  "id": 11,
+  "message": "Now we need you to set and confirm your password.",
+  "trigger": 12,
+}, {
+  "id": 12,
+  "message": "This needs to be more than 8 characters long and include numbers and letters",
+  "trigger": 13,
+}, {
+  "id": 13,
+  "message": "Re-enter password",
+  "trigger": 14,
+}, {
+  "id": 14,
+  "message": "Fantastic - thanks!",
+  "trigger": 15,
+}, {
+  "id": 15,
+  "message": "We would like to send you reminders related to your recovery plan",
+  "trigger": 16,
+}, {
+  "id": 16,
+  "message": "You can customise these in Setting at any time, or you can turn them off now if you'd prefer?",
+  "options": [{
+      "value": 1,
+      "label": "Alright! 👍",
+      "trigger": 17
+    },
+    {
+      "value": 2,
+      "label": "Not sure 👎",
+      "trigger": 18
+    },
+  ],
+}, {
+  "id": 17,
+  "message": "Great! You'll get a pop up asking permission.",
+  "trigger": 19,
+}, {
+  "id": 18,
+  "message": "Ok. You'll get a pop up asking permission.",
+  "trigger": 19,
+}, {
+  "id": 19,
+  "function": "initNotificationPermissions",
+  "trigger": 20,
+}, {
+  "id": 20,
+  "end": true,
+}];
