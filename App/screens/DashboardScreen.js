@@ -56,7 +56,7 @@ export default class DashboardScreen extends React.Component {
 //                  }).catch((error) => {
 //                           alert('Logout Failed. Please try again'+error);
   //                });
-    AlertIOS.alert("Back Score:36","Socialising pain: 45");
+    //AlertIOS.alert("Back Score:36","Socialising pain: 45");
 
   }
 
@@ -86,7 +86,7 @@ export default class DashboardScreen extends React.Component {
 //                  }).catch((error) => {
 //                           alert('Logout Failed. Please try again'+error);
   //                });
-    AlertIOS.alert("Back Score:38","Socialising pain: 47");
+    //AlertIOS.alert("Back Score:38","Socialising pain: 47");
   }
 
   onGetStepsPress = () => {
